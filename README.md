@@ -7,9 +7,13 @@ The project’s core functionality revolves around its ability to handle differe
 3.	Key Features
    
 •  Multilanguage Document Extraction: GeminiDecode is designed to extract text from documents written in multiple languages, offering high flexibility for users who work with international content. It detects languages automatically and applies the right models for accurate extraction and representation.
+
 •  Interactive Web Interface: Built using Streamlit, the tool offers a streamlined, interactive user experience. Users can upload documents via the web interface, and view the extracted content in real time.
+
 •  PDF and Document Handling: Through PyPDF2, GeminiDecode can manage and extract content from PDFs, including metadata, textual data, and other relevant elements of the document structure.
+
 •  AI-powered Content Analysis: The integration of Google Generative AI allows for intelligent processing of the extracted text, including summarization, translation, keyword extraction, and contextual analysis. This improves the depth of the output, allowing users to work with information that is not just extracted, but also meaningfully interpreted.
+
 •  Document Vectorization and Search: Utilizing ChromaDB and FAISS, the tool vectorizes the extracted content, making it searchable by semantic similarity. This allows users to search for relevant information within their documents, even if they do not know the exact terms.
 
 5.	Technologies Used
