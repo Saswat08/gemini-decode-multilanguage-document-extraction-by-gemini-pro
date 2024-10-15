@@ -20,11 +20,17 @@ The project’s core functionality revolves around its ability to handle differe
    
 The following key technologies are employed in the project:
 •	Streamlit: Provides an easy-to-use framework for building custom web applications. It allows the tool to be deployed as a web service where users can upload documents and view the processed results.
+
 •	Google Generative AI: Powers the extraction and processing of multilingual content. It uses models trained on vast datasets to provide insights and contextual understanding that would be difficult with conventional tools.
+
 •	LangChain: Manages the interaction between different AI models. It provides a flexible framework to integrate language models and improve their interaction, allowing for more robust extraction and analysis.
+
 •	PyPDF2: A Python library used for reading and processing PDF files. It ensures that all relevant text and metadata are extracted from uploaded PDFs, which are a common format for business documents and research papers.
+
 •	ChromaDB: A database system used for managing and storing vector embeddings of text. It allows for fast, scalable similarity searches across large sets of document vectors, supporting tasks like information retrieval and recommendation.
+
 •	FAISS (Facebook AI Similarity Search): Used for efficient and fast similarity searches across the vectorized document content. It allows for near real-time search, even across large datasets.
+
 •	Pillow: A Python Imaging Library (PIL) fork used for image processing tasks, in case documents include embedded images that need to be handled.
 
 7.	Installation and Setup
