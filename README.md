@@ -66,24 +66,35 @@ streamlit run app.py
 9.	File Structure
 
 •	app.py: The primary application file where all the logic for document upload, extraction, and analysis takes place. This file contains code for handling user interactions, processing the uploaded documents, and displaying the results on the Streamlit interface.
-•	requirements.txt: This file lists all the necessary Python packages required to run the project. Installing these dependencies ensures that all the necessary libraries are in place(requirements).
+
+•	requirements.txt: This file lists all the necessary Python packages required to run the project. Installing these dependencies ensures that all the necessary libraries are in place(requirements).4
+
 •	.env: Stores environment-specific variables like API keys. This is crucial for external integrations like Google Generative AI.
 
 9.	How GeminiDecode Works
 
 •	User Interaction: Users interact with GeminiDecode through a simple Streamlit web interface. Here, they can upload their documents, which are then processed by the system.
+
 •	Document Processing: Once the document is uploaded, PyPDF2 extracts the text (or metadata) from PDFs. For other formats, different handlers can be added in the future to expand the range of file types that GeminiDecode supports.
+
 •	AI-based Analysis: The extracted content is then passed to Google Generative AI via LangChain, which handles translation, summarization, and keyword extraction. The AI models enable the tool to understand the context and semantics of the document content, making the output more meaningful.
+
 •	Vectorization and Search: After processing, the content is vectorized using ChromaDB and FAISS, allowing users to search for similar content within the document. This is particularly useful when working with large sets of documents or complex documents with many sections.
+
 •	Output Representation: The results are displayed in the Streamlit interface, allowing users to view, search, and interact with the extracted content. Users can perform keyword searches, view summaries, and explore document insights easily.
 
 10.	Use Case Example
 
 Let’s consider a typical use case where a user uploads a legal document in multiple languages. Here’s what GeminiDecode does:
+
 •	Step 1: The user uploads the document through the Streamlit UI.
+
 •	Step 2: GeminiDecode detects the languages in the document and extracts the text.
+
 •	Step 3: The AI-powered analysis runs, summarizing the document in the user’s preferred language. If required, it translates specific sections.
+
 •	Step 4: The document is vectorized, allowing the user to search for relevant legal terms or clauses within the document.
+
 •	Step 5: The processed output, including translations, summaries, and relevant sections, is displayed for user interaction.
 
 11.	Conclusion
