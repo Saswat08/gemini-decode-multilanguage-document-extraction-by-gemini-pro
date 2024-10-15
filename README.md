@@ -37,13 +37,20 @@ The following key technologies are employed in the project:
    
 To get started with GeminiDecode, follow these steps:
 •	Install Required Dependencies: Install the dependencies using the requirements.txt file. This file lists all the Python libraries needed for the application to function correctly. The installation can be done by running:
+
 pip install -r requirements.txt
 Key dependencies from requirements.txt include:
+
 •	Streamlit: For the web application interface.
+
 •	Google Generative AI: For advanced AI functionalities.
+
 •	LangChain: For model orchestration and natural language processing.
+
 •	PyPDF2: For handling and extracting content from PDFs.
+
 •	ChromaDB and FAISS: For document similarity search and vectorization.
+
 •	Pillow: For image-related tasks
 
 8.	Set Up Environment Variables
