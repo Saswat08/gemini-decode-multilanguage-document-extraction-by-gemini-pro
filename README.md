@@ -21,7 +21,7 @@ The project’s core functionality revolves around its ability to handle differe
 The following key technologies are employed in the project:
 •	Streamlit: Provides an easy-to-use framework for building custom web applications. It allows the tool to be deployed as a web service where users can upload documents and view the processed results.
 
-•	Google Generative AI: Powers the extraction and processing of multilingual content. It uses models trained on vast datasets to provide insights and contextual understanding that would be difficult with conventional tools.
+•	Google Generative AI: Powers the extraction and processing of multilingual content. It authenticates the application and uses models trained on vast datasets to provide insights and contextual understanding that would be difficult with conventional tools.
 
 •	LangChain: Manages the interaction between different AI models. It provides a flexible framework to integrate language models and improve their interaction, allowing for more robust extraction and analysis.
 
